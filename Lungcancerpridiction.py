@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 
 st.markdown(""" <style> .font {font-size:50px ; font-family: 'Cooper Black'; color: #FF9633;} </style> """, unsafe_allow_html=True)
 
-st.markdown('<p class="font">DID YOU REALLY SAFE FROM LUNG CANCER?', unsafe_allow_html=True)
+st.markdown('<p class="font">DO YOU REALLY SAFE FROM LUNG CANCER?', unsafe_allow_html=True)
 
 st.write('DISCLAIMER: This is just a prediction by using Naive Bayes model with a precision 96%.')
 
@@ -101,7 +101,7 @@ with st.form('my_form'):
         E = 1
     else :
         E = 0
-    PP= st.radio("Pear-pressure? ", ('YES', 'NO'))
+    PP= st.radio("Peer pressure? ", ('YES', 'NO'))
     if PP == 'YES':
         F = 1
     else :
